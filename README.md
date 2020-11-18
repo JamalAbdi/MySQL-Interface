@@ -4,10 +4,9 @@ library to interface the database and make SQL quiries.
 
 I have listed a few possible quiries and how to input them on the programs interface:  
 
-Program: Enter: (1, Country_of_Origin, Country = 'USA')  
 How tall is Warren Buffet? 
+Program: Enter: (1, Country_of_Origin, Country = 'USA')  
 SQL: SELECT Height FROM Demographic WHERE Name = 'Warren Buffett'; 
-Program: Enter: (1, Demographic, Height, Name = 'Warren Buffet')  
 
 How Much does the richest person have in billions? 
 SQL: Select NetWorth FROM Wealth WHERE Rank = 1; Answer: 111 Billions USD 
